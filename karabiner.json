@@ -46,11 +46,11 @@
                             {
                                 "conditions": [
                                     {
+                                        "type": "frontmost_application_if",
                                         "bundle_identifiers": [
                                             "com.autodesk.AutoCAD2018",
                                             "com.sketchup.SketchUp.2017"
-                                        ],
-                                        "type": "frontmost_application_if"
+                                        ]
                                     }
                                 ],
                                 "from": {
@@ -66,11 +66,11 @@
                             {
                                 "conditions": [
                                     {
+                                        "type": "frontmost_application_if",
                                         "bundle_identifiers": [
                                             "com.autodesk.AutoCAD2018",
                                             "com.sketchup.SketchUp.2017"
-                                        ],
-                                        "type": "frontmost_application_if"
+                                        ]
                                     }
                                 ],
                                 "from": {
@@ -126,6 +126,61 @@
                                     {
                                         "key_code": "close_bracket",
                                         "modifiers": "left_command"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Swap l_option and l_command for terminal/iterm2 ",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "type": "frontmost_application_if",
+                                        "bundle_identifiers": [
+                                            "com.apple.Terminal",
+                                            "com.googlecode.iterm2"
+                                        ]
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "left_option",
+                                    "modifiers": {
+                                        "optional": [
+                                          "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                      "key_code": "left_command"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "type": "frontmost_application_if",
+                                        "bundle_identifiers": [
+                                            "com.apple.Terminal",
+                                            "com.googlecode.iterm2"
+                                        ]
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "left_command",
+                                    "modifiers": {
+                                        "optional": [
+                                          "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                      "key_code": "left_option"
                                     }
                                 ],
                                 "type": "basic"
