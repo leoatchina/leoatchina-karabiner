@@ -20,24 +20,24 @@
                             {
                                 "conditions": [
                                     {
-                                        "type": "frontmost_application_if",
                                         "bundle_identifiers": [
                                             "com.apple.Terminal",
                                             "com.googlecode.iterm2"
-                                        ]
+                                        ],
+                                        "type": "frontmost_application_if"
                                     }
                                 ],
                                 "from": {
                                     "key_code": "right_option",
                                     "modifiers": {
                                         "optional": [
-                                          "any"
+                                            "any"
                                         ]
                                     }
                                 },
                                 "to": [
                                     {
-                                      "key_code": "right_command"
+                                        "key_code": "right_command"
                                     }
                                 ],
                                 "type": "basic"
@@ -45,24 +45,24 @@
                             {
                                 "conditions": [
                                     {
-                                        "type": "frontmost_application_if",
                                         "bundle_identifiers": [
                                             "com.apple.Terminal",
                                             "com.googlecode.iterm2"
-                                        ]
+                                        ],
+                                        "type": "frontmost_application_if"
                                     }
                                 ],
                                 "from": {
                                     "key_code": "right_command",
                                     "modifiers": {
                                         "optional": [
-                                          "any"
+                                            "any"
                                         ]
                                     }
                                 },
                                 "to": [
                                     {
-                                      "key_code": "right_option"
+                                        "key_code": "right_option"
                                     }
                                 ],
                                 "type": "basic"
@@ -101,11 +101,11 @@
                             {
                                 "conditions": [
                                     {
-                                        "type": "frontmost_application_if",
                                         "bundle_identifiers": [
                                             "com.autodesk.AutoCAD2018",
                                             "com.sketchup.SketchUp.2017"
-                                        ]
+                                        ],
+                                        "type": "frontmost_application_if"
                                     }
                                 ],
                                 "from": {
@@ -121,11 +121,11 @@
                             {
                                 "conditions": [
                                     {
-                                        "type": "frontmost_application_if",
                                         "bundle_identifiers": [
                                             "com.autodesk.AutoCAD2018",
                                             "com.sketchup.SketchUp.2017"
-                                        ]
+                                        ],
+                                        "type": "frontmost_application_if"
                                     }
                                 ],
                                 "from": {
@@ -198,6 +198,32 @@
                         "is_pointing_device": true,
                         "product_id": 5890,
                         "vendor_id": 4152
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": []
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 594,
+                        "vendor_id": 1452
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": true,
+                    "simple_modifications": []
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": false,
+                        "is_pointing_device": true,
+                        "product_id": 24727,
+                        "vendor_id": 6127
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": false,
@@ -302,7 +328,7 @@
                     }
                 }
             ],
-            "name": "leoatchina profile",
+            "name": "leoatchina's profile",
             "selected": true,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
