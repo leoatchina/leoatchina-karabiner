@@ -49,12 +49,12 @@
                                         "bundle_identifiers": [
                                             "com.googlecode.iterm2"
                                         ],
-                                        "type": "frontmost_application_if" 
+                                        "type": "frontmost_application_if"
                                     }
                                 ],
-                                "from":{
+                                "from": {
                                     "key_code": "tab",
-                                    "modifiers": { 
+                                    "modifiers": {
                                         "mandatory": [
                                             "left_control"
                                         ]
@@ -77,12 +77,12 @@
                                         "bundle_identifiers": [
                                             "com.googlecode.iterm2"
                                         ],
-                                        "type": "frontmost_application_if" 
+                                        "type": "frontmost_application_if"
                                     }
                                 ],
-                                "from":{
+                                "from": {
                                     "key_code": "tab",
-                                    "modifiers": { 
+                                    "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_shift"
@@ -106,12 +106,12 @@
                                         "bundle_identifiers": [
                                             "com.googlecode.iterm2"
                                         ],
-                                        "type": "frontmost_application_if" 
+                                        "type": "frontmost_application_if"
                                     }
                                 ],
-                                "from":{
+                                "from": {
                                     "key_code": "return_or_enter",
-                                    "modifiers": { 
+                                    "modifiers": {
                                         "mandatory": [
                                             "left_command"
                                         ]
@@ -133,12 +133,12 @@
                                         "bundle_identifiers": [
                                             "com.googlecode.iterm2"
                                         ],
-                                        "type": "frontmost_application_if" 
+                                        "type": "frontmost_application_if"
                                     }
                                 ],
-                                "from":{
+                                "from": {
                                     "key_code": "return_or_enter",
-                                    "modifiers": { 
+                                    "modifiers": {
                                         "mandatory": [
                                             "left_option"
                                         ]
@@ -166,12 +166,12 @@
                                             "com.apple.Terminal",
                                             "org.vim.MacVim"
                                         ],
-                                        "type": "frontmost_application_if" 
+                                        "type": "frontmost_application_if"
                                     }
                                 ],
-                                "from":{
+                                "from": {
                                     "key_code": "return_or_enter",
-                                    "modifiers": { 
+                                    "modifiers": {
                                         "mandatory": [
                                             "left_option"
                                         ]
@@ -200,12 +200,12 @@
                                             "com.apple.finder",
                                             "org.eclipse.platform.ide"
                                         ],
-                                        "type": "frontmost_application_if" 
+                                        "type": "frontmost_application_if"
                                     }
                                 ],
-                                "from":{
+                                "from": {
                                     "key_code": "return_or_enter",
-                                    "modifiers": { 
+                                    "modifiers": {
                                         "mandatory": [
                                             "left_command"
                                         ]
@@ -226,7 +226,7 @@
                     },
                     {
                         "description": "command + arrowkey for tab switch in terminal, disable command+D",
-                        "manipulators":[
+                        "manipulators": [
                             {
                                 "conditions": [
                                     {
@@ -355,7 +355,7 @@
                                             "left_command"
                                         ]
                                     }
-                                }, 
+                                },
                                 "type": "basic"
                             },
                             {
@@ -375,7 +375,7 @@
                                             "shift"
                                         ]
                                     }
-                                }, 
+                                },
                                 "type": "basic"
                             }
                         ]
@@ -614,7 +614,6 @@
                         ]
                     },
                     {
-                        "description": "Change button4,5 to back,forward in ansi/iso keyboard",
                         "conditions": [
                             {
                                 "keyboard_types": [
@@ -624,6 +623,7 @@
                                 "type": "keyboard_type_if"
                             }
                         ],
+                        "description": "Change button4,5 to back,forward in ansi/iso keyboard",
                         "manipulators": [
                             {
                                 "from": {
@@ -719,6 +719,36 @@
                             },
                             "to": {
                                 "key_code": "left_command"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 12293,
+                        "vendor_id": 1203
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": [
+                        {
+                            "from": {
+                                "key_code": "left_option"
+                            },
+                            "to": {
+                                "key_code": "left_command"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_command"
+                            },
+                            "to": {
+                                "key_code": "left_option"
                             }
                         }
                     ]
