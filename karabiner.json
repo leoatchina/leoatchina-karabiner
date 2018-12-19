@@ -15,7 +15,7 @@
                 },
                 "rules": [
                     {
-                        "description": "Change caps_lock to left command+control+option+shift.",
+                        "description": "Change caps_lock to right command+control+option+shift.",
                         "manipulators": [
                             {
                                 "from": {
@@ -28,11 +28,11 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left_shift",
+                                        "key_code": "right_shift",
                                         "modifiers": [
-                                            "left_command",
-                                            "left_control",
-                                            "left_option"
+                                            "right_command",
+                                            "right_control",
+                                            "right_option"
                                         ]
                                     }
                                 ],
