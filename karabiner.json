@@ -192,11 +192,11 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "com.apple.Terminal",
-                                            "com.googlecode.iterm2",
-                                            "org.vim.MacVim"
+                                            "com.microsoft.VSCode",
+                                            "com.tencent.xinWeChat",
+                                            "org.eclipse.platform.ide"
                                         ],
-                                        "type": "frontmost_application_unless" 
+                                        "type": "frontmost_application_if" 
                                     }
                                 ],
                                 "from":{
