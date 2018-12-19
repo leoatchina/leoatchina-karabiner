@@ -207,7 +207,7 @@
                                     "key_code": "return_or_enter",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_command"
+                                            "command"
                                         ]
                                     }
                                 },
@@ -215,8 +215,8 @@
                                     {
                                         "key_code": "f",
                                         "modifiers": [
-                                            "left_command",
-                                            "left_control"
+                                            "command",
+                                            "control"
                                         ]
                                     }
                                 ],
