@@ -162,7 +162,7 @@
                         ]
                     },
                     {
-                        "description": "Map l_command to l_option in iterm2/terminal/macvim",
+                        "description": "Swap l_command  l_option in iterm2/terminal/macvim",
                         "manipulators": [
                             {
                                 "conditions": [
