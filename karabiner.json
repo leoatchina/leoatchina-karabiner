@@ -41,6 +41,129 @@
                         ]
                     },
                     {
+                        "description": "Keep cmd+enter for fullsceen in iterm2",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "com.googlecode.iterm2"
+                                        ],
+                                        "type": "frontmost_application_if" 
+                                    }
+                                ],
+                                "from":{
+                                    "key_code": "return_or_enter",
+                                    "modifiers": { 
+                                        "mandatory": [
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "return_or_enter",
+                                        "modifiers": [
+                                            "left_option"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "com.googlecode.iterm2"
+                                        ],
+                                        "type": "frontmost_application_if" 
+                                    }
+                                ],
+                                "from":{
+                                    "key_code": "return_or_enter",
+                                    "modifiers": { 
+                                        "mandatory": [
+                                            "left_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "return_or_enter",
+                                        "modifiers": [
+                                            "left_command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Map cmd+enter to fullsceen besides iterm2",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "com.apple.Terminal",
+                                            "org.vim.MacVim"
+                                        ],
+                                        "type": "frontmost_application_if" 
+                                    }
+                                ],
+                                "from":{
+                                    "key_code": "return_or_enter",
+                                    "modifiers": { 
+                                        "mandatory": [
+                                            "left_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f",
+                                        "modifiers": [
+                                            "left_command",
+                                            "left_control"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "com.apple.Terminal",
+                                            "com.googlecode.iterm2",
+                                            "org.vim.MacVim"
+                                        ],
+                                        "type": "frontmost_application_unless" 
+                                    }
+                                ],
+                                "from":{
+                                    "key_code": "return_or_enter",
+                                    "modifiers": { 
+                                        "mandatory": [
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f",
+                                        "modifiers": [
+                                            "left_command",
+                                            "left_control"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Keep l_command and l_option in iterm2/terminal/macvim with tab/space",
                         "manipulators": [
                             {
