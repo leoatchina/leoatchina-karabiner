@@ -221,7 +221,7 @@
                         ]
                     },
                     {
-                        "description": "command + arrowkey for tab switch in terminal",
+                        "description": "command + arrowkey for tab switch in terminal, disable command+D",
                         "manipulators":[
                             {
                                 "conditions": [
