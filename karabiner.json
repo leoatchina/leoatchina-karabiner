@@ -1201,7 +1201,16 @@
             ],
             "name": "leoatchina's profile",
             "selected": true,
-            "simple_modifications": [],
+            "simple_modifications": [
+                {
+                    "from": {
+                        "consumer_key_code": "eject"
+                    },
+                    "to": {
+                        "key_code": "f13"
+                    }
+                }
+            ],
             "virtual_hid_keyboard": {
                 "country_code": 0
             }
