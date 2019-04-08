@@ -266,6 +266,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "com.apple.Terminal",
+                                            "com.qvacua.VimR",
                                             "org.vim.MacVim"
                                         ],
                                         "type": "frontmost_application_if"
@@ -538,13 +539,14 @@
                         ]
                     },
                     {
-                        "description": "Keep l_command and l_option in iterm2/terminal/macvim with tab/space",
+                        "description": "Keep l_command and l_option in iterm2/terminal/macvim/vimR with tab/space",
                         "manipulators": [
                             {
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
                                             "com.apple.Terminal",
+                                            "com.qvacua.VimR",
                                             "com.googlecode.iterm2",
                                             "org.vim.MacVim"
                                         ],
@@ -574,6 +576,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "com.apple.Terminal",
+                                            "com.qvacua.VimR",
                                             "com.googlecode.iterm2",
                                             "org.vim.MacVim"
                                         ],
@@ -603,6 +606,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "com.apple.Terminal",
+                                            "com.qvacua.VimR",
                                             "com.googlecode.iterm2",
                                             "org.vim.MacVim"
                                         ],
@@ -632,6 +636,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "com.apple.Terminal",
+                                            "com.qvacua.VimR",
                                             "com.googlecode.iterm2",
                                             "org.vim.MacVim"
                                         ],
@@ -659,13 +664,14 @@
                         ]
                     },
                     {
-                        "description": "Swap l_command  l_option in iterm2/terminal/macvim",
+                        "description": "Swap l_command  l_option in iterm2/terminal/macvim/vimR",
                         "manipulators": [
                             {
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
                                             "com.apple.Terminal",
+                                            "com.qvacua.VimR",
                                             "com.googlecode.iterm2",
                                             "org.vim.MacVim"
                                         ],
@@ -697,6 +703,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "com.apple.Terminal",
+                                            "com.qvacua.VimR",
                                             "com.googlecode.iterm2",
                                             "org.vim.MacVim"
                                         ],
