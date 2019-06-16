@@ -265,6 +265,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
+                                            "io.alacritty",
                                             "com.apple.Terminal",
                                             "com.qvacua.VimR",
                                             "org.vim.MacVim"
@@ -295,7 +296,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "com.tencent.xinWeChat",
+                                            "com.tencent.WexinChat",
                                             "com.tencent.qq",
                                             "org.zotero.zotero",
                                             "cn.wiz.wiznoteformac",
@@ -539,12 +540,13 @@
                         ]
                     },
                     {
-                        "description": "Keep l_command and l_option in iterm2/terminal/macvim/vimR with tab/space",
+                        "description": "Keep l_command and l_option in iterm2/terminal/alacritty/macvim/vimR with tab/space",
                         "manipulators": [
                             {
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
+                                            "io.alacritty",
                                             "com.apple.Terminal",
                                             "com.qvacua.VimR",
                                             "com.googlecode.iterm2",
@@ -575,6 +577,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
+                                            "io.alacritty",
                                             "com.apple.Terminal",
                                             "com.qvacua.VimR",
                                             "com.googlecode.iterm2",
@@ -605,6 +608,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
+                                            "io.alacritty",
                                             "com.apple.Terminal",
                                             "com.qvacua.VimR",
                                             "com.googlecode.iterm2",
@@ -635,6 +639,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
+                                            "io.alacritty",
                                             "com.apple.Terminal",
                                             "com.qvacua.VimR",
                                             "com.googlecode.iterm2",
@@ -664,12 +669,13 @@
                         ]
                     },
                     {
-                        "description": "Swap l_command  l_option in iterm2/terminal/macvim/vimR",
+                        "description": "Swap l_command  with l_option in iterm2/terminal/alacritty/macvim/vimR",
                         "manipulators": [
                             {
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
+                                            "io.alacritty",
                                             "com.apple.Terminal",
                                             "com.qvacua.VimR",
                                             "com.googlecode.iterm2",
@@ -702,6 +708,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
+                                            "io.alacritty",
                                             "com.apple.Terminal",
                                             "com.qvacua.VimR",
                                             "com.googlecode.iterm2",
