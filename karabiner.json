@@ -268,8 +268,7 @@
                                         "bundle_identifiers": [
                                             "io.alacritty",
                                             "com.apple.Terminal",
-                                            "com.qvacua.VimR",
-                                            "org.vim.MacVim"
+                                            "com.qvacua.VimR"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -541,7 +540,7 @@
                         ]
                     },
                     {
-                        "description": "Keep l_command and l_option in iterm2/terminal/alacritty/macvim/vimR with tab/space",
+                        "description": "Keep l_command and l_option in iterm2/terminal/alacritty/vimR with tab/space",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -550,8 +549,7 @@
                                             "io.alacritty",
                                             "com.apple.Terminal",
                                             "com.qvacua.VimR",
-                                            "com.googlecode.iterm2",
-                                            "org.vim.MacVim"
+                                            "com.googlecode.iterm2"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -581,8 +579,7 @@
                                             "io.alacritty",
                                             "com.apple.Terminal",
                                             "com.qvacua.VimR",
-                                            "com.googlecode.iterm2",
-                                            "org.vim.MacVim"
+                                            "com.googlecode.iterm2"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -612,8 +609,7 @@
                                             "io.alacritty",
                                             "com.apple.Terminal",
                                             "com.qvacua.VimR",
-                                            "com.googlecode.iterm2",
-                                            "org.vim.MacVim"
+                                            "com.googlecode.iterm2"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -643,8 +639,7 @@
                                             "io.alacritty",
                                             "com.apple.Terminal",
                                             "com.qvacua.VimR",
-                                            "com.googlecode.iterm2",
-                                            "org.vim.MacVim"
+                                            "com.googlecode.iterm2"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -670,7 +665,7 @@
                         ]
                     },
                     {
-                        "description": "Swap l_command  with l_option in iterm2/terminal/alacritty/macvim/vimR",
+                        "description": "Swap l_command  with l_option in iterm2/terminal/alacritty/vimR",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -679,8 +674,7 @@
                                             "io.alacritty",
                                             "com.apple.Terminal",
                                             "com.qvacua.VimR",
-                                            "com.googlecode.iterm2",
-                                            "org.vim.MacVim"
+                                            "com.googlecode.iterm2"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -712,8 +706,7 @@
                                             "io.alacritty",
                                             "com.apple.Terminal",
                                             "com.qvacua.VimR",
-                                            "com.googlecode.iterm2",
-                                            "org.vim.MacVim"
+                                            "com.googlecode.iterm2"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
