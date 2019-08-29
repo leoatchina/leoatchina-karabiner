@@ -715,7 +715,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "com.autodesk.AutoCAD2018",
-                                            "com.sketchup.SketchUp.2017"
+                                            "com.sketchup.SketchUp.2018"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -735,7 +735,7 @@
                                     {
                                         "bundle_identifiers": [
                                             "com.autodesk.AutoCAD2018",
-                                            "com.sketchup.SketchUp.2017"
+                                            "com.sketchup.SketchUp.2018"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
