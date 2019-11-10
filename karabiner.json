@@ -171,13 +171,14 @@
                         ]
                     },
                     {
-                        "description": "Keep cmd+enter for fullsceen in iterm2, and keep ctrl+tab for tab switch",
+                        "description": "Keep cmd+enter for fullsceen in iterm2 && therm, and keep ctrl+tab for tab switch",
                         "manipulators": [
                             {
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "com.googlecode.iterm2"
+                                            "com.googlecode.iterm2",
+                                            "com.pancake.therm"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -204,7 +205,8 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "com.googlecode.iterm2"
+                                            "com.googlecode.iterm2",
+                                            "com.pancake.therm"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -231,7 +233,8 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "com.googlecode.iterm2"
+                                            "com.googlecode.iterm2",
+                                            "com.pancake.therm"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -259,7 +262,8 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "com.googlecode.iterm2"
+                                            "com.googlecode.iterm2",
+                                            "com.pancake.therm"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -288,7 +292,9 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "com.googlecode.iterm2"
+                                            "com.googlecode.iterm2",
+                                            "com.pancake.therm"
+
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -315,7 +321,8 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "com.googlecode.iterm2"
+                                            "com.googlecode.iterm2",
+                                            "com.pancake.therm"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -341,7 +348,7 @@
                         ]
                     },
                     {
-                        "description": "Map cmd+enter to fullsceen besides iterm2",
+                        "description": "Map cmd+enter to fullsceen besides iterm2 && therm",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -620,7 +627,7 @@
                         ]
                     },
                     {
-                        "description": "Keep l_command and l_option in iterm2/terminal/vimR with tab/space",
+                        "description": "Keep l_command and l_option in iterm2/therm/terminal/vimR with tab/space",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -628,7 +635,8 @@
                                         "bundle_identifiers": [
                                             "com.apple.Terminal",
                                             "com.qvacua.VimR",
-                                            "com.googlecode.iterm2"
+                                            "com.googlecode.iterm2",
+                                            "com.pancake.therm"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -657,7 +665,8 @@
                                         "bundle_identifiers": [
                                             "com.apple.Terminal",
                                             "com.qvacua.VimR",
-                                            "com.googlecode.iterm2"
+                                            "com.googlecode.iterm2",
+                                            "com.pancake.therm"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -686,7 +695,8 @@
                                         "bundle_identifiers": [
                                             "com.apple.Terminal",
                                             "com.qvacua.VimR",
-                                            "com.googlecode.iterm2"
+                                            "com.googlecode.iterm2",
+                                            "com.pancake.therm"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -715,7 +725,8 @@
                                         "bundle_identifiers": [
                                             "com.apple.Terminal",
                                             "com.qvacua.VimR",
-                                            "com.googlecode.iterm2"
+                                            "com.googlecode.iterm2",
+                                            "com.pancake.therm"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -741,7 +752,7 @@
                         ]
                     },
                     {
-                        "description": "Swap l_command  with l_option in iterm2/terminal/vimR",
+                        "description": "Swap l_command  with l_option in iterm2/therm/terminal/vimR",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -749,7 +760,8 @@
                                         "bundle_identifiers": [
                                             "com.apple.Terminal",
                                             "com.qvacua.VimR",
-                                            "com.googlecode.iterm2"
+                                            "com.googlecode.iterm2",
+                                            "com.pancake.therm"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -780,7 +792,8 @@
                                         "bundle_identifiers": [
                                             "com.apple.Terminal",
                                             "com.qvacua.VimR",
-                                            "com.googlecode.iterm2"
+                                            "com.googlecode.iterm2",
+                                            "com.pancake.therm"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
