@@ -1,7 +1,7 @@
 {
     "global": {
         "check_for_updates_on_startup": true,
-        "show_in_menu_bar": false,
+        "show_in_menu_bar": true,
         "show_profile_name_in_menu_bar": false
     },
     "profiles": [
@@ -860,6 +860,44 @@
                         ]
                     },
                     {
+                        "conditions": [
+                            {
+                                "keyboard_types": [
+                                    "ansi",
+                                    "iso"
+                                ],
+                                "type": "keyboard_type_if"
+                            }
+                        ],
+                        "description": "Change button4,5 to back,forward like using command + []",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "pointing_button": "button4"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "open_bracket",
+                                        "modifiers": "left_command"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "pointing_button": "button5"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "close_bracket",
+                                        "modifiers": "left_command"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Change button4,5 to button3 in some apps",
                         "manipulators": [
                             {
@@ -898,44 +936,6 @@
                                 "to": [
                                     {
                                         "pointing_button": "button3"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "conditions": [
-                            {
-                                "keyboard_types": [
-                                    "ansi",
-                                    "iso"
-                                ],
-                                "type": "keyboard_type_if"
-                            }
-                        ],
-                        "description": "Change button4,5 to back,forward in ansi/iso keyboard",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "pointing_button": "button4"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "open_bracket",
-                                        "modifiers": "left_command"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "pointing_button": "button5"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "close_bracket",
-                                        "modifiers": "left_command"
                                     }
                                 ],
                                 "type": "basic"
@@ -1119,7 +1119,24 @@
                     },
                     "ignore": true,
                     "manipulate_caps_lock_led": false,
-                    "simple_modifications": []
+                    "simple_modifications": [
+                        {
+                            "from": {
+                                "pointing_button": "button4"
+                            },
+                            "to": {
+                                "pointing_button": "button6"
+                            }
+                        },
+                        {
+                            "from": {
+                                "pointing_button": "button5"
+                            },
+                            "to": {
+                                "pointing_button": "button7"
+                            }
+                        }
+                    ]
                 },
                 {
                     "disable_built_in_keyboard_if_exists": false,
@@ -1145,7 +1162,24 @@
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": false,
-                    "simple_modifications": []
+                    "simple_modifications": [
+                        {
+                            "from": {
+                                "pointing_button": "button5"
+                            },
+                            "to": {
+                                "pointing_button": "button7"
+                            }
+                        },
+                        {
+                            "from": {
+                                "pointing_button": "button4"
+                            },
+                            "to": {
+                                "pointing_button": "button6"
+                            }
+                        }
+                    ]
                 }
             ],
             "fn_function_keys": [
@@ -1251,16 +1285,7 @@
                 "delay_milliseconds_before_open_device": 1000
             },
             "selected": true,
-            "simple_modifications": [
-                {
-                    "from": {
-                        "consumer_key_code": "eject"
-                    },
-                    "to": {
-                        "key_code": "f13"
-                    }
-                }
-            ],
+            "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "country_code": 0,
                 "mouse_key_xy_scale": 100
