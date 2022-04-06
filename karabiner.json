@@ -56,7 +56,7 @@
                                     "key_code": "w",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_command" 
+                                            "right_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -75,7 +75,7 @@
                                     "key_code": "a",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_command" 
+                                            "right_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -94,7 +94,7 @@
                                     "key_code": "s",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_command" 
+                                            "right_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -113,7 +113,7 @@
                                     "key_code": "d",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_command" 
+                                            "right_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -327,7 +327,6 @@
                                         "bundle_identifiers": [
                                             "com.googlecode.iterm2",
                                             "com.pancake.therm"
-
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1130,6 +1129,19 @@
                         "is_pointing_device": false,
                         "product_id": 637,
                         "vendor_id": 1452
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": []
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": false,
+                        "is_pointing_device": true,
+                        "product_id": 33382,
+                        "vendor_id": 9354
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": false,
